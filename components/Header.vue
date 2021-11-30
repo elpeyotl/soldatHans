@@ -5,24 +5,36 @@
     </h1>
     <nav class="mt-2 lg:mt-12">
       <ul class="flex justify-center text-gray-400 lg:flex-col">
-        <nuxt-link to="anthaupt" class="hover:text-black cursor-pointer mr-4"
-          >anthaupt</nuxt-link
+        <nuxt-link
+          :to="release.path"
+          v-for="release in releases"
+          :key="release.slug"
+          class="hover:text-black cursor-pointer mr-4"
+          >{{ release.title }}</nuxt-link
         >
-        <li class="hover:text-black cursor-pointer mr-4">es taut</li>
-        <li class="hover:text-black cursor-pointer">dress rehersal</li>
       </ul>
     </nav>
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api'
-
-export default defineComponent({
-  setup() {
-    return {}
+<script>
+export default {
+  data() {
+    return {
+      releases: [],
+    }
   },
-})
+  async mounted() {
+    this.releases = await this.$content(`releases`)
+      .sortBy('releaseDate', 'desc')
+      .fetch()
+    console.log(this.releases)
+  },
+}
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+a.nuxt-link-exact-active {
+  @apply text-black;
+}
+</style>

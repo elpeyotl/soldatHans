@@ -1,15 +1,21 @@
 <template>
-  <div>Welcome amigo</div>
+  <div>
+    <h2>{{ article.title }}</h2>
+    <nuxt-content class="my-6" :document="article" />
+
+    <img class="w-full" :src="`/images/${article.image}`" />
+  </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api'
-
-export default defineComponent({
-  setup() {
-    return {}
+<script>
+export default {
+  async asyncData({ $content }) {
+    const article = await $content('bio').fetch()
+    return {
+      article,
+    }
   },
-})
+}
 </script>
 
 <style scoped></style>

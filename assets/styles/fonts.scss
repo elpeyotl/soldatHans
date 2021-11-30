@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Computer Modern Serif';
+  src: url('~assets/fonts/cmunrm.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Computer Modern Serif';
+  src: url('~assets/fonts/cmunti.woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Computer Modern Serif', serif;
+}

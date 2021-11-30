@@ -5,7 +5,7 @@
       <img
         v-for="image in release.images"
         :key="image"
-        class="w-full lg:w-1/2 my-2 mb-2 lg:my-6 release__image"
+        class="w-full lg:w-1/2 my-2 mb-2 lg:my-6 release__image lazyload"
         :src="`/images/${image}`"
       />
     </div>

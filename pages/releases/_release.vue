@@ -12,9 +12,8 @@
     <div class="mb-6" v-for="(song, index) in release.songs" :key="song.title">
       <h3 class="italic relative">
         <span class="mr-2">
-          {{ index + 1 }} - {{ song.title }} |
+          {{ index + 1 }} - {{ song.title }} -
           <small>{{ song.duration }}</small>
-          |
         </span>
         <div class="inline-flex h-full absolute items-center">
           <div class="inline mr-1 cursor-pointer">

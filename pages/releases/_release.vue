@@ -19,13 +19,8 @@
           <div class="inline mr-1 cursor-pointer">
             <PlayIcon :source="song.src" :title="song.title" />
           </div>
-          <div class="inline cursor-pointer">
-            <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
-              <path fill="none" d="M0 0h24v24H0z" />
-              <path
-                d="M14.17 5 19 9.83V19H5V5h9.17m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9.83c0-.53-.21-1.04-.59-1.41l-4.83-4.83c-.37-.38-.88-.59-1.41-.59zM7 15h10v2H7v-2zm0-4h10v2H7v-2zm0-4h7v2H7V7z"
-              />
-            </svg>
+          <div v-if="song.lyrics" class="inline cursor-pointer">
+            <LyricsIcon @clickHandler="showLyrics(song)" />
           </div>
         </div>
       </h3>
@@ -37,6 +32,10 @@
 <script>
 import AudioPlayer from '~/components/AudioPlayer.vue'
 import PlayIcon from '~/components/PlayIcon.vue'
+import ShowLyricsIcon from '~/components/LyricsIcon.vue'
+import LyricsIcon from '~/components/LyricsIcon.vue'
+import { setOverlayContent, toggleOverlay } from '@/use/useOverlay'
+
 export default {
   async asyncData({ $content, params }) {
     const release = await $content(`releases/${params.release}`).fetch()
@@ -44,7 +43,16 @@ export default {
       release,
     }
   },
-  components: { AudioPlayer, PlayIcon },
+  components: { AudioPlayer, PlayIcon, ShowLyricsIcon, LyricsIcon },
+  setup() {
+    const showLyrics = (release) => {
+      toggleOverlay()
+      setOverlayContent(release)
+    }
+    return {
+      showLyrics,
+    }
+  },
 }
 </script>
 

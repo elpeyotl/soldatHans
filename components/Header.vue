@@ -16,7 +16,7 @@
       </ul>
     </nav>
     <div class="hidden lg:block mt-16 uppercase text-gray-400">
-      <small>No racism.<br />No sexism.<br />No Homophobia</small>
+      <small>No racism.<br />No sexism.<br />No Homophobia.</small>
     </div>
   </div>
 </template>

@@ -39,6 +39,6 @@ export default {
 
 <style lang="scss" scoped>
 .zoomImage {
-  height: 90vh;
+  width: 90vh;
 }
 </style>

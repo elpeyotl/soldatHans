@@ -13,8 +13,7 @@
         @click="showImage(image)"
         v-for="image in release.images"
         :key="image"
-        class="w-full zoom lg:w-1/2 my-2 mb-2 lg:my-6 release__image lazyload cursor-pointer"
-        :class="{ invisible: image.zoomed }"
+        class="w-full lg:w-1/2 my-2 mb-2 lg:my-6 release__image lazyload cursor-pointer"
         :src="`/images/${image}`"
       />
     </div>

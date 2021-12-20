@@ -1,11 +1,20 @@
 <template>
   <div>
-    <h2 class="mb-6">{{ release.title }}</h2>
+    <div>
+      <h2 class="mb-6 inline">
+        {{ release.title }}
+      </h2>
+      <br />
+      <span class="small">{{ release.releaseDate }}</span>
+    </div>
+
     <div class="flex flex-col lg:flex-row mb-6">
       <img
+        @click="showImage(image)"
         v-for="image in release.images"
         :key="image"
-        class="w-full lg:w-1/2 my-2 mb-2 lg:my-6 release__image lazyload"
+        class="w-full zoom lg:w-1/2 my-2 mb-2 lg:my-6 release__image lazyload cursor-pointer"
+        :class="{ invisible: image.zoomed }"
         :src="`/images/${image}`"
       />
     </div>
@@ -24,6 +33,16 @@
           </div>
         </div>
       </h3>
+    </div>
+    <div class="mt-12">
+      <h3>Band</h3>
+      <div v-for="member in release.band" :key="member">{{ member }}</div>
+    </div>
+    <div class="mt-6">
+      <h3>Collaborators</h3>
+      <div v-for="member in release.collaborators" :key="member">
+        {{ member }}
+      </div>
     </div>
     <nuxt-content class="my-6" :document="release" />
   </div>
@@ -49,8 +68,14 @@ export default {
       toggleOverlay()
       setOverlayContent(release)
     }
+
+    const showImage = (image) => {
+      toggleOverlay(true)
+      setOverlayContent(image)
+    }
     return {
       showLyrics,
+      showImage,
     }
   },
 }

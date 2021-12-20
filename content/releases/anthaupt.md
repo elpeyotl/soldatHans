@@ -2,6 +2,16 @@
 title: Anthaupt
 releaseDate: 2021
 images: ['anthaupt_cover_front.jpg', 'anthaupt_cover_back.jpg']
+band: ["Justin Harrison - Drums",
+"Omar Hetata - Guitar / Vocals",
+"Omar Fra - Guitar",
+"Tobias Pfennninger- Guitar",
+"Jonathan Chaclan - Bass"]
+collaborators: ["Carol Schuler - Vocals",
+"Daniel Gisler - Rhodes, Organs, Synthesizer",
+"Sebastian Koelman - Trombone",
+"Julia Pfenninger - Cello",
+"Philip Harrison - Backing Vocals"]
 songs:
   [
     {

@@ -2,6 +2,16 @@
 title: Dress rehersal
 releaseDate: 2017
 images: ['dress_rehersal_cover_front.jpg', 'dress_rehersal_cover_back.jpg']
+band: ["Justin Harrison - Drums",
+"Omar Hetata - Guitar / Vocals",
+"Omar Fra - Guitar",
+"Tobias Pfennninger- Guitar",
+"Jonathan Chaclan - Bass",
+"Clemens Wilding- Keys"]
+collaborators: ['Sebastian Koelman - Trombone/Trompet',
+'Daniel Gisler - Cembalo / add. Synths',
+'Philip Harrison - Banjo/Percussion / String & Choir Arrangements',
+Stefan Nievergelt - add. Synths]
 songs:
   [
     {

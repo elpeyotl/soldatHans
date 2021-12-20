@@ -1,7 +1,7 @@
 ---
 title: Bio
 description: 'Soldat Hans - Ambient Doom from Winterthur Switzerland'
-image: 'band.jpeg'
+image: 'soldat_hans.jpg'
 ---
 
 Soldat Hans are a band from Winterthur, Switzerland. They play rather dark and heavy music, which scratches the realms of downtempo, slowcore, doom, post-rock, jazz, folk and psychedelic art-rock – by incorporating various instruments like guitars, bass, drums, organs & synthesizers, brass and strings.<br ><br>
@@ -19,3 +19,4 @@ Jonathan Chaclan - Bass<br><br>
 [soldathans.org](https://www.soldathans.org)<br>
 [wolvesandvibrancyrecords.com](https://wolvesandvibrancyrecords.com)<br>
 [soldathans.bandcamp.com](https://soldathans.bandcamp.com)<br>
+[band@soldathans.org](mailto:band@soldathans.org)<br><br>

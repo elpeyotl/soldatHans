@@ -2,6 +2,15 @@
 title: es taut
 releaseDate: 2019
 images: ['estaut_cover_front.jpg', 'estaut_cover_back.jpg']
+band: ["Justin Harrison - Drums",
+"Omar Hetata - Guitar / Vocals",
+"Omar Fra - Guitar",
+"Tobias Pfennninger- Guitar",
+"Jonathan Chaclan - Bass",
+"Clemens Wilding- Keys"]
+collaborators: ['Seraina Pfenninger - Violin', 
+'Sebastian Koelman - Trombone',
+'Philip Harrison - Vibraphone / Synths / String arrangements']
 songs:
   [
     {

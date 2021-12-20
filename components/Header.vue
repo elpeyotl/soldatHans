@@ -13,6 +13,11 @@
           class="hover:text-black cursor-pointer mr-4"
           >{{ release.title }}</nuxt-link
         >
+        <li>
+          <a href="files/soldat_hans_promo.zip" target="_blank"
+            >Promo package</a
+          >
+        </li>
       </ul>
     </nav>
     <div class="hidden lg:block mt-16 uppercase text-gray-400">
@@ -32,7 +37,6 @@ export default {
     this.releases = await this.$content(`releases`)
       .sortBy('releaseDate', 'desc')
       .fetch()
-    console.log(this.releases)
   },
 }
 </script>

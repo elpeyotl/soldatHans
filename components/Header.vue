@@ -14,7 +14,7 @@
           >{{ release.title }}</nuxt-link
         >
         <li>
-          <a href="files/soldat_hans_promo.zip" target="_blank"
+          <a href="/files/soldat_hans_promo.zip" target="_blank"
             >Promo package</a
           >
         </li>

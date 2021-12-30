@@ -1,3 +1,7 @@
 @import 'fonts';
 @import 'typography';
 @import 'transitions';
+
+a {
+  @apply underline;
+}

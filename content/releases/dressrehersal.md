@@ -33,7 +33,7 @@ songs:
         Wired grounds they‘ll fold. You were called to seek. Who calms the weary and the fatigue?',
     },
     {
-      src: '/songs/dressrehersal/02_Soldat Hans - Esthère (im bronzefarbenen Licht).mp3',
+      src: '/songs/dressrehersal/02_Soldat Hans - Esthere im bronzefarbenen Licht.mp3',
       title: 'Esthère (im bronzefarbenen Licht)',
       duration: '13:35',
       lyrics: 'We are dreamt by the heartache of her sleep, brother.

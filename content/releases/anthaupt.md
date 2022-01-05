@@ -1,6 +1,6 @@
 ---
 title: Anthaupt
-releaseDate: 2021
+releaseDate: 2022
 images: ['anthaupt_cover_front.jpg', 'anthaupt_cover_back.jpg']
 band: ["Justin Harrison - Drums",
 "Omar Hetata - Guitar / Vocals",

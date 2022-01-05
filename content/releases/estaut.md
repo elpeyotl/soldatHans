@@ -1,6 +1,6 @@
 ---
 title: es taut
-releaseDate: 2019
+releaseDate: 2018
 images: ['estaut_cover_front.jpg', 'estaut_cover_back.jpg']
 band: ["Justin Harrison - Drums",
 "Omar Hetata - Guitar / Vocals",

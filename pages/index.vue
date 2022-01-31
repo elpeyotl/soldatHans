@@ -1,7 +1,9 @@
 <template>
   <div>
     <h2>{{ article.title }}</h2>
-    <a href="/files/soldat_hans_promo.zip">Download promo package</a>
+    <a class="mt-6 inline-block" href="/files/soldat_hans_promo.zip"
+      >Download promo package</a
+    >
 
     <nuxt-content class="my-6" :document="article" />
     <img

@@ -1,5 +1,5 @@
 ---
-title: Dress rehersal
+title: Dress Rehearsal
 releaseDate: 2014
 images: ['dress_rehersal_cover_front.jpg', 'dress_rehersal_cover_back.jpg']
 band: ["Justin Harrison - Drums",

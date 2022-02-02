@@ -1,5 +1,5 @@
 ---
-title: es taut
+title: Es Taut
 releaseDate: 2018
 images: ['estaut_cover_front.jpg', 'estaut_cover_back.jpg']
 band: ["Justin Harrison - Drums",

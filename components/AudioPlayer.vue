@@ -14,10 +14,9 @@
 import {
   defineComponent,
   computed,
-  watch,
   ref,
   onMounted,
-} from '@vue/composition-api'
+} from '@nuxtjs/composition-api'
 import { audioPlayerState } from '@/use/usePlayer'
 
 export default defineComponent({

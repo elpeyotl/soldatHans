@@ -1,4 +1,4 @@
-import { reactive, computed } from '@vue/composition-api'
+import { reactive, computed } from '@nuxtjs/composition-api'
 
 const overlayState = reactive({
   content: {},

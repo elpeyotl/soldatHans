@@ -1,4 +1,4 @@
-import { reactive } from '@vue/composition-api'
+import { reactive } from '@nuxtjs/composition-api'
 
 const audioPlayerState = reactive({
   audioSource: '',

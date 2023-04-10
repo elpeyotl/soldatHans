@@ -14,7 +14,8 @@ Justin Harrison - Drums<br >
 Omar Hetata - Guitar / Vocals<br>
 Omar Fra - Guitar<br>
 Tobias Pfennninger- Guitar<br>
-Jonathan Chaclan - Bass<br><br>
+Jonathan Chaclan - Bass<br>
+Francesco Romano - Keys<br><br>
 
 [soldathans.org](https://www.soldathans.org)<br>
 [wolvesandvibrancyrecords.com](https://wolvesandvibrancyrecords.com)<br>
